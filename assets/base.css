@@ -1,0 +1,106 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --head-text-color:#555555;
+    --text-color:#9a9a9a;
+
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+/* .grid{
+    width: 1200px;
+    margin: 0 auto;
+} */
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.grid__column-2{
+    width: 16.66667%;
+    padding: 0 20px;
+}
+
+.grid__column-4{
+    padding:20px 35px 20px 15px;
+    width: 33.33333%;
+}
+.grid__column-5{
+    width: 41.66667%;
+}
+.grid__column-6{
+    width: 50%;
+    /* padding: 15px 15px; */
+}
+
+.grid__column-9{
+    padding:20px 15px 20px 35px;
+    width:66.66667%;
+}
+
+.grid__column-10{
+    width: 83.33333%;
+}
+
+.grid-full{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+}
+
+.section__heading-under::before{
+    content: "";
+    position: absolute;
+    height: 6px;
+    bottom: 6px;
+    z-index: -1;
+}
+
+.packages-color-yellow{
+    background: #ffd205;
+}
+.packages-color-red{
+    background: #f76570;
+}
+.packages-color-purple{
+    background: #ba71da;
+}
+.packages-link-yellow{
+    background: linear-gradient(to right, #ffd205 0%,  #ff9b05 100%);
+}
+.packages-link-red{
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+.packages-link-purple{
+    background:linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+.packages-link-green{
+    background:linear-gradient(to right, #1bbc9b 0%, #1bbc63 100%);
+}
+.packages-link-orange{
+    background: linear-gradient(to right, #f3a46b 0%, #f3c96b 100%);
+}
+.packages-link-blue{
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+}
+
+/* Các nút khi Hover */
+.menu__info-current:hover,
+.footer__head-btn:hover,
+.packages__btn-link:hover,
+.content__btn-intro:hover,
+.header__btn-link:hover{
+    opacity: 0.85;
+}

@@ -1,0 +1,455 @@
+/* Tablet & Mobile */
+@media (max-width:1023px)
+{
+    .header__nav{
+        height: 124px;
+        display: block;
+        padding: 20px 15px 15px 15px;
+        background: rgb(85, 85, 85);
+    }
+   
+    .header__logo-link{
+       text-align: center;
+       display: block;
+       padding: 0;
+    }
+
+    .header__menu{
+        display: none;
+    }
+
+    .header__nav-list{
+        display: none;
+    }
+
+    .header__menu-logo{
+        padding: 0px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .header__menu-icon{
+        top: 18px;
+        right: 18px;
+    }
+    
+    .header__menu-checkshow:checked ~ .menu__navbar{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .subnav-chill-link{
+        text-decoration: none;
+        color: var(--white-color);
+    }
+
+
+    /* Slider */
+    .header__slider-event{
+        text-align: center;
+    }
+    .header__slider-list{
+        display: inline-block;
+    }
+
+    .content__btn{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .content__btn-holiday{
+        display: inline-block;
+    }
+   
+    /* Introduce beaches */
+    .content__intro{
+        margin-bottom: 75px;
+    }
+
+    /* Selection  */
+    .content__selection{
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .content__selection-main{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Discover */
+    .content__discover-main{
+        margin-top: 0;
+    }
+
+    /* Packages */
+    .packages__info-pay{
+        display: block;
+        height: 100px;
+    }
+
+    .packages__pay-item{
+        padding: 10px 0 10px;
+    }
+    .packages__pay-current-old{
+        margin-left: 0;
+        margin-right: 6px;
+    }
+
+    /* Footer */
+    .footer__background{
+        height: 100%;
+    }
+
+    .footer__contact-head{
+        display: block;
+    }
+
+    .footer__head-right{
+        padding: 15px 15px;
+    }
+
+    .footer__contact-main{
+        display: inline-block;
+        height: 100%;
+    }
+
+    .footer__contact-service{
+        margin-top: 35px;
+    }
+
+    .footer__contact-end{
+        display: block;
+        text-align: center;
+    }
+
+    .footer__end-text{
+        display: block;
+    }
+
+    /* Circle Envato */
+    .circle__envato-small,
+    .circle__envato-large{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px)
+{
+    /* Choose */
+    .header__option-list{
+        width: 718px;
+    }
+    .hearder__slider-option{
+        padding: 0 15px;
+    }
+
+    /* Slider */
+    .header__slider-btn{
+        padding: 12px 20px;
+        left: 80%;
+        margin: 0;
+    }
+
+    .header__slider-item{
+        width: 688px;
+        margin:0 0 30px;
+    }
+
+   
+    .destinations-img{
+        width: 630px;
+        height: 630px;
+    }
+
+    .destinations-list-item{
+        height: 630px;
+    }
+
+    /* Holiday */
+    .content__holiday{
+        height: 320px;
+        display: block;
+        padding: 50px 46px;
+    }
+
+    /* Introduce Slide */
+    .content__slide-main{
+        width: 610px;
+    }
+
+    .content__slide-duration{
+        left: 34px;
+        padding: 0px;
+    }
+    .content__time-times{
+        width: 153px;
+    }
+
+    /* Packages */
+    .content__packages-img{
+        height: 400px;
+        width: 630px;
+    }
+
+    /* Footer */
+    .footer__head-input{
+        width: 436px;
+    }
+
+    .footer__head-btn{
+        width: 170px;
+    }
+    
+}
+/* Mobile */
+@media (max-width:739px)
+{
+    /* Header */
+    .header__slider-heading{
+        font-size: 3.8rem;
+    }
+
+    .section__heading-header::before{
+        width: 155px;
+        
+    }
+
+   
+    /* Choose */
+    .hearder__slider-option{
+        margin: 65px 0 45px;
+    }
+
+    .header__option-list{
+        width: 270px;
+    }
+    .header__slider-btn{
+        left: -52px;
+        top: -5px;
+        position: relative;
+    }
+
+    .header__slider-item{
+        width: 240px;
+        margin: 30px 0;
+    }
+
+    /* destinations */
+    .section-heading{
+        font-size: 3.2rem;
+    }
+
+    .section__heading-des::before{
+        width: 236px;
+        bottom: 5px;
+    }
+    .section__heading-pack::before {
+        width: 180px;
+        bottom: 5px;
+    }
+
+    .section__content-header,
+    .section__heading-des,
+    .section__heading-pack{
+        display: block;
+    }
+
+    .destinations-list{
+        text-align: center;
+    }
+
+    .destinations-img{
+        width: 269px;
+        height: 269px;
+    }
+
+    .destinations-list-item{
+        height: 269px;
+    }
+
+    .destinations-text{
+        padding: 20px;
+        text-align: left;
+    }
+
+    .destinations-name{
+        font-size: 1.6rem;
+    }
+
+    .destiantions-number-packages{
+        font-size: 1.2rem;
+    }
+
+    /* Holiday */
+    .content__holiday{
+        height: 369px;
+        display: block;
+        padding: 50px 72px;
+        margin-bottom: 0px;
+    }
+
+    .content__holiday-heading{
+        font-size: 4.4rem;
+    }
+
+    .section__content-header::before{
+        width: 178px;
+    }
+
+    /* Introduce beaches */
+    .content__intro-main{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .content__selection-text,
+    .packages__info-text,
+    .content__intro-place,
+    .content__intro-text{
+        font-size: 1.3rem;
+    }
+
+    .content__intro-heading{
+        margin: 15px 0 30px;
+    }
+
+    .content__intro-discount,
+    .content__intro-current{
+        font-size: 2.6rem;
+    }
+
+    .packages__pay-name,
+    .packages__pay-name,
+    .content__intro-person{
+        font-size: 1.2rem;
+    }
+
+    .section__heading-intro::before{
+        left: 0;
+    }
+
+    .packages__pay-add{
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+
+    .content__selection-heading,
+    .packages__pay-current{
+        font-size: 2.3rem;
+    }
+    /* Introduce Slide  */
+    .content__intro-slide{
+        margin-bottom: 430px;
+    }
+
+    .content__slide-main{
+        height: 141px;
+        width: 250px;
+    }
+
+    .content__slide-duration{
+        display: block;
+        top: 161px;
+        left: 20px;
+    }
+
+    .content__time-times{
+        width: 250px;
+        height: 115px;
+    }
+    .content__time-number{
+        margin-top: 0;
+        line-height: 8rem;
+    }
+    .content__time-text{
+        margin-bottom: 0;
+        
+    }
+
+    .content__time-seperate::after{
+        right: 121px;
+        top: 88px;
+        font-size: 4.2rem;
+    }
+
+    /* Selection */
+    .content__selection-main{
+        margin-bottom: 30px;
+    }
+
+    .content__selection-img{
+        height: 40px;
+        width: 40px;
+    }
+
+    /* Discover */
+    .discover__city-item{
+        font-size: 1.2rem;
+    }
+    .discover__city-heading{
+        font-size: 3rem;
+    }
+
+    .btn,
+    .content__btn-discover-natural,
+    .content__btn-discover-city{
+        padding: 10px 25px;
+    }
+
+    /* Packages */
+    .content__packages-img{
+        width: 269px;
+        height: 168px;
+    }
+
+    .content__packages-info{
+        width: 269px;
+    }
+
+    .row-mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__packages-link{
+        width: 45px;
+        height: 45px;
+        bottom: -20px;
+    }
+
+    .content__packages-icon{
+        width: 24px;
+        top: 22%;
+    }
+
+    /* Footer */
+    .footer__contact-head{
+        display: flex;
+    }
+
+    .footer__head-right{
+        text-align: center;
+    }
+
+    .footer__head-btn,
+    .footer__head-input{
+        width: 270px;
+    }
+
+    .footer__head-input{
+        margin-bottom:20px;
+        margin-right: 0;
+    }
+
+    .footer__contact-end,
+    .footer__contact-main{
+        width: 270px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer__contact-info{
+        padding: 0 15px 0 15px;
+    }
+}
